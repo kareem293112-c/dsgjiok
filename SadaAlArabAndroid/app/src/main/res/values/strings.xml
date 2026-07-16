@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sada Al Arab</string>
+    <!-- Note: Replace this with your actual Web Client ID, or let google-services.json generate it automatically -->
+    <string name="default_web_client_id">YOUR_WEB_CLIENT_ID_HERE</string>
+</resources>

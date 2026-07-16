@@ -1,0 +1,6 @@
+{
+  "name": "SadaAlArabAndroid",
+  "description": "Android Native wrapper for Sada Al Arab",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
