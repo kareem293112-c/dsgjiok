@@ -26,5 +26,8 @@ jobs:
     - name: Check Gradle Wrapper
       run: ls -la SadaAlArabAndroid/gradle/wrapper
 
+    - name: Verify Gradle Wrapper Jar
+      run: jar tf SadaAlArabAndroid/gradle/wrapper/gradle-wrapper.jar | grep GradleWrapperMain
+
     - name: Build with Gradle
       run: cd SadaAlArabAndroid && ./gradlew assembleDebug
