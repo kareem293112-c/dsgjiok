@@ -23,5 +23,8 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x SadaAlArabAndroid/gradlew
 
+    - name: Check Gradle Wrapper
+      run: ls -la SadaAlArabAndroid/gradle/wrapper
+
     - name: Build with Gradle
       run: cd SadaAlArabAndroid && ./gradlew assembleDebug
